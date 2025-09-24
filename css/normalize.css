@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* width:1000px; */
+    display: block;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+
+.header_area {
+    height: 80px;
+    background: #2A2B3C;
+}
+
+.head {
+    float: left;
+    width: 400px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+    float: left;
+}
+
+.logo img {
+    width: 75px;
+    height: 80px;
+}
+
+.dateshow p {
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.menu {
+    width: 600px;
+    float: right;
+}
+
+.menu ul {
+    color: #e3e3e5;
+    list-style: outside none none;
+    margin: 20px 20px 0 0;
+    padding: 0;
+}
+
+.menu>ul>li {
+    float: right;
+    display: block;
+}
+
+.menu>ul>li a {
+    color: #e3e3e5;
+    font-size: 16px;
+    padding: 3px 6px;
+}
+
+.menu>ul>li a:hover {
+    color: #0BB69F;
+}
+
+.sidebar {
+    float: left;
+    padding: 10px;
+    width: 180px;
+    background: #2A2B3C;
+}
+
+.sidebar ul {
+    margin-top: 30;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar>ul>li {
+    font-size: 18px;
+    background: #1bc6a4;
+    color: #e3e3e5;
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.spcl {}
+
+button {
+    background: transparent;
+    color: #e3e3e5;
+    border: 1px solid #e3e3e5;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.sidebar ul ul li,
+button {
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 5px 0 0 1px;
+}
+
+.sidebar ul ul li:hover,
+button:hover {
+    background: #3a3b4c;
+}
+
+.sidebar ul ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e3e3e5;
+    padding: 8px;
+}
+
+.maincontent {
+    min-height: 580px;
+}
+
+.content {
+    float: right;
+    padding: 10px 170px;
+    width: 780px;
+}
+
+.cpright {
+    position: relative;
+    bottom: 0;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+
+/*login form desing start*/
+
+.loginform {
+    padding: 10px;
+    background: #DDD;
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 145px;
+    margin-left: 215px;
+}
+
+.msg {}
+
+.msg h3 {
+    text-align: center;
+}
+
+.access {}
+
+.loginform p {
+    text-align: center;
+}
+
+.loginform a {
+    color: #0ea17f;
+}
+
+.loginform input[type="text"],
+.loginform input[type="date"],
+.loginform input[type="file"],
+.loginform select,
+.loginform textarea,
+.loginform input[type="password"],
+.loginform input[type="email"] {
+    padding: 7px 5px;
+    margin: 20px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.olamide {
+    padding: 7px 5px;
+    margin: 20px 0;
+    width: 40%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.olamide:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+.loginform input[type="text"]:focus,
+.loginform input[type="date"]:focus,
+.loginform input[type="file"]:focus,
+.loginform select:focus,
+.loginform textarea:focus,
+.loginform input[type="password"]:focus,
+.loginform input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+.loginform input[type="submit"] {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.loginform input[type="submit"]:hover {
+    background: #1bc6a4;
+}
+
+
+/*login form ends*/
+
+.error {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hero-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgb(7, 231, 201);
+    font-size: 13px;
+    background: rgb(7, 231, 201);
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+}
+
+.hero-btn:hover {
+    border: 1px solid rgb(9, 134, 124);
+    background: rgb(9, 134, 124);
+    transition: 1s;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.profile {
+    background: rgb(236, 235, 235);
+    width: 700px;
+    margin: 10px auto;
+}
+
+.row {
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+.campus-col1 {
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col1 tr th {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: rgb(93, 91, 91);
+    text-align: center;
+    padding: 1px;
+}
+
+.campus-col2 {
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col2 tr th {
+    font-size: 30px;
+    text-align: center;
+    padding: 1px;
+}
+
+.course {
+    width: 95%;
+    margin: 1%;
+}
+
+.facilities {
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 1%;
+}
+
+.facilities h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 1px;
+}
+
+.height {
+    height: auto;
+    width: 1px;
+    background-color: black;
+}
+
+.facilities input[type="text"],
+.facilities select {
+    background: rgb(210, 207, 207);
+    padding: 7px 5px;
+    margin: 20px 0;
+    width: 95%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.facilities input[type="text"]:focus,
+.facilities select:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+input[type="submit"] {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 10%;
+    margin: auto;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    background: #1abc9c;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+}
+
+input[type="submit"]:hover,
+input[type="checkbox"]:hover {
+    background: #eaf3f1;
+}
+
+.table {
+    width: 70%;
+    margin: 10px auto;
+    background-color: #dff2ed;
+}
+
+.table tr th {
+    border-bottom: 1px solid #dff2ed;
+    padding: 1% 1% 1% 0;
+    text-align: left;
+}
+
+.table tr td {
+    padding: 1%;
+    text-transform: capitalize;
+}
+
+.dropdownContent {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}

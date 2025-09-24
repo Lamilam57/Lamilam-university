@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(9, 134, 124);
+}
+
+header div{
+    padding: 2%;
+}
+
+header h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.wrapper{
+    width: 95%;
+}
+
+.hero-btn{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgb(7, 231, 201);
+    font-size: 13px;
+    background: rgb(7, 231, 201);
+    position: relative;
+    cursor: pointer;
+    padding: 12px 34px;
+}
+
+.hero-btn:hover{
+    border: 1px solid rgb(9, 134, 124);
+    background: rgb(9, 134, 124);
+    transition: 1s;
+}
+
+.title{
+    color: rgb(9, 134, 113);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+/*login form desing start*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.loginform{
+    padding: 10px;
+    background: #DDD;
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 5% auto;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.msg{
+
+}
+.msg h3{
+  text-align: center;
+}
+.access {
+
+}
+
+.loginform p{
+  text-align: center;
+}
+.loginform a{
+  color:#0ea17f;
+}
+.loginform input[type="text"], .loginform input[type="number"], .loginform input[type="search"], .loginform input[type="password"], .loginform input[type="email"], .loginform input[type="file"], .loginform textarea, .loginform select{
+  padding: 7px 5px;
+  margin: 20px 0;
+  width: 96%;
+  display: block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.loginform input[type="text"]:focus, .loginform input[type="number"]:focus, .loginform input[type="search"]:focus, .loginform input[type="password"]:focus, .loginform input[type="email"]:focus, .loginform input[type="file"]:focus, .loginform textarea:focus, .loginform select:focus{
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+.loginform input[type="submit"] {
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.loginform input[type="submit"]:hover {
+  background: #1bc6a4;
+}
+/*login form ends*/
+
+/* Table Start*/
+.link{
+  margin: 3%;
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+  background-color: #c2f5e9;
+}
+
+table tr th{
+  border-bottom: 1px solid #0ea17f;
+  padding: 1% 1% 1% 0;
+  text-align: left;
+}
+
+table tr td{
+  padding: 1%;
+  text-transform: capitalize;
+}
+
+
+/* Table Start*/
+
+.error{
+  color: red;
+}
+
+.success{
+  color: green;
+}
